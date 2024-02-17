@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(14, 14, 100);
+    padding: 5px 0px 5px 0px;
+}
+
+.navbar>ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0px 0px 0px 50px;
+    align-items: center;
+}
+.navbar>ul>li>a{
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    color: rgb(106, 106, 159);
+}
+.navbar-icon>ul{
+    flex-wrap: wrap;
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 10px 60px 0px 10px;
+}
+.navbar-icon>ul>li>a{
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    color: rgb(106, 106, 159);
+}
+
+/* second pat navbar  */
